@@ -124,10 +124,16 @@ async def on_message(message):
   # Replies to greetings
 
   if message.content.startswith('GM'):
-    await message.channel.send('Good morning! ')
+    await message.channel.send('Good Morning! Have a nice day.')
 
   if message.content.startswith('gm'):
-    await message.channel.send('Good morning!')
+    await message.channel.send('Good Morning! Have a nice day.')
+
+  if message.content.startswith('Good morning'):
+    await message.channel.send('Good Morning! Have a nice day.')
+
+  if message.content.startswith('good morning'):
+    await message.channel.send('Good Morning! Have a nice day.')
 
 keep_alive()
 
