@@ -137,4 +137,4 @@ async def on_message(message):
 
 keep_alive()
 
-client.run('OTM3OTQzODMzMzk4ODg2NDEw.YfjGRA.gND2V3wiae8hNanCq_4qD8H1p5o')
+client.run('TOKEN HERE')
